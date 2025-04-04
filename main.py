@@ -12,7 +12,7 @@ bignum = os.environ.get('BIG_NUMBER')  # Make sure BIG_NUMBER is set in your env
 
 @app.route('/sdfgiygwfidkjsidaifhsdfihwe7yfkahsdjfkhsdfweuihfhsjaflsjdkfiwejfiwejf8738479823746237426345752', methods=['POST'])
 def rwg():
-    return bignum
+    return str(bignum)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=3000)
